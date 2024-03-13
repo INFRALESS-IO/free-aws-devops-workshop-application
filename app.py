@@ -12,7 +12,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         <html>
         <head><title>Sample App</title></head>
         <body>
-        <h1>Hello, {hello_world_text}</h1>
+        <h1 style="font-size:80px; !important">Hello, <span style="color: orange;"> {hello_world_text}</span></h1>
         </body>
         </html>
         """.encode('utf-8')
